@@ -45,7 +45,7 @@ body {
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     #links{
         gap:1em;
         margin-right:.5em;
@@ -84,6 +84,13 @@ body {
 #container1{
     padding-left:4em;
     font-family: sans-serif;
+}
+
+@media screen and (max-width:700px){
+    #container1{
+        margin-left:5em;
+        padding-bottom:2em;
+    }
 }
 
 #main_container #container1  h1{
@@ -135,4 +142,57 @@ body{
 #images .img-option img{
     min-width:0;
     width:100%;
+}
+
+#container3{
+    margin-top:6em;
+    height:400px;
+    background-color: #E5E7EB;
+    padding-left:25%;
+    padding-right:25%;
+
+    outline:2px solid blue;
+    min-width:0;
+    width:100%;
+}
+
+#container3 #quote{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    min-width:0;
+    width:50vw;
+    outline:2px solid red;
+
+
+}
+
+#quote i{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: light italic;
+    min-width:0;
+    width:100%;
+}
+
+@media screen and (max-width:600px){
+    #container3{
+        padding-left: 15%;
+        padding-right:15%;
+    }
+
+    #container3 #quote{
+        width:70vw;
+    }
+}
+
+#quote b{
+    flex:1;
+    text-align: right;
+    padding-right:10%;
+    font-size:20px;
+    font-weight:800px;
 }
