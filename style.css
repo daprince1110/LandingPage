@@ -88,7 +88,8 @@ body {
 
 @media screen and (max-width:700px){
     #container1{
-        margin-left:5em;
+        margin-left:1em;
+        padding-left: 1em;
         padding-bottom:2em;
     }
 }
@@ -103,10 +104,18 @@ body {
 }
 
 #main_container img{
+    min-width: 0px;
     width:500px;
     height:200px;
     margin-left:4em;
-    padding-right:2em;
+    margin-right:2em;
+}
+
+@media screen and(max-width:600px) {
+    #main_container img{
+        min-width:200px;
+        width:100%;
+    }
 }
 
 body{
@@ -180,6 +189,7 @@ body{
     #container3{
         padding-left: 15%;
         padding-right:15%;
+        width:100vw;
     }
 
     #container3 #quote{
@@ -215,6 +225,13 @@ body{
     color:white;
     border:white 2px solid;
     background-color: #3882F6;
+}
+
+@media screen and (max-width:800px){
+    #alert button{
+        margin-right:1em;
+        margin-left:1em;
+    }
 }
 
 #alert_section1{
