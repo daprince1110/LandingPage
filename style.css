@@ -54,3 +54,38 @@
         padding-right:1em;
     }
 }
+
+
+#main_container{
+    background-color:#1F2937;
+    height:350px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+#container1{
+    padding-left:4em;
+}
+
+#main_container #container1  h1{
+    font:48px;
+    font-weight: 900px;
+}
+
+#container1{
+    max-width:300px;
+}
+
+#main_container img{
+    width:500px;
+    height:200px;
+    margin-left:4em;
+    padding-right:2em;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
