@@ -1,3 +1,6 @@
+body {
+    font-family:sans-serif;
+}
 .custom_white{
     color:#F9FAF8;
 }
@@ -7,12 +10,13 @@
     background-color:#1F2937;
     display:flex;
     align-items: center;
+    font-family: Roboto, sans-serif;
 }
 
 
 #header h3{
-    font:24px;
-    font-family: serif;
+    font-size:24px;
+    font-family: sans-serif;
     padding-left:10em;
 }
 
@@ -24,13 +28,11 @@
     justify-content: right;
     align-items: center;
     align-content: center;
-    font-family: auto;
     margin-right:10em;
 }
 
 #links a{
     text-decoration: none;
-    font-family: roboto,
 }
 
 @media screen and (max-width:1000px) {
@@ -62,15 +64,30 @@
     display:flex;
     align-items: center;
     justify-content:center;
+    font-family: sans-serif;
 
+}
+
+#container1 button{
+    background-color: #3882F6;
+    color:white;
+    border-radius: 5px;
+    border:0px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: 800px;
 }
 
 #container1{
     padding-left:4em;
+    font-family: sans-serif;
 }
 
 #main_container #container1  h1{
-    font:48px;
+    font-size:48px;
     font-weight: 900px;
 }
 
@@ -88,4 +105,34 @@
 body{
     padding:0px;
     margin:0px;
+}
+
+#container2 h1{
+    text-align:center;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+#container2{
+    width:100vw;
+}
+
+#images {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    margin-left:15%;
+    margin-right:15%;
+
+
+}
+
+#images .img-option{
+    flex:1;
+    padding-left:1em;
+}
+
+#images .img-option img{
+    min-width:0;
+    width:100%;
 }
